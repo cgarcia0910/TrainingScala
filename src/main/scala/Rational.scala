@@ -1,6 +1,6 @@
 class Rational(x: Int, y: Int) {
-  def numer = x / gcd(x, y)
-  def denom = y /gcd(x, y)
+  val numer = x / gcd(x, y)
+  val denom = y /gcd(x, y)
 
   /*
     Euclides algorithm for gcd
